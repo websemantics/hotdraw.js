@@ -10,16 +10,16 @@ Hotdraw.js has been built with the [Oea.svg Framework](http://oeasvg.com). Oea.s
 
 The [aim](http://www.jhotdraw.org) of making Hotdraw.js an open-source project is:
 
--to learn Hotdraw [Pattern Language](http://softarch.cis.strath.ac.uk/PLJHD/Patterns/JHDDomainOverview.html)
--to gain a wider audience for this framework among developers
--to build new applications based upon Hotdraw.js
--to let application development influence the development of Hotdraw.js
--to add new and advanced features
--to drive its further development
--to enhance and refactor the exisiting code
--to identify new design patterns and refactorings
--to make it an example for a well-designed and flexible framework
--to learn and to have fun
+- To learn Hotdraw [Pattern Language](http://softarch.cis.strath.ac.uk/PLJHD/Patterns/JHDDomainOverview.html)
+- To gain a wider audience for this framework among developers
+- To build new applications based upon Hotdraw.js
+- To let application development influence the development of Hotdraw.js
+- To add new and advanced features
+- To drive its further development
+- To enhance and refactor the exisiting code
+- To identify new design patterns and refactorings
+- To make it an example for a well-designed and flexible framework
+- To learn and to have fun
 
 ## Documentation
 
