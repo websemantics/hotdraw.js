@@ -1,7 +1,5 @@
 # Hotdraw.js
 
-bower register Hotdraw.js git://github.com/websemantics/hotdraw.js.git
-
 Hotdraw.js is a port of [JHotDraw version 5.1](http://www.jhotdraw.org).  It is based on Erich Gamma's JHotDraw, which is copyright 1996, 1997 by IFA Informatik and Erich Gamma.The implementation of Hotdraw.js has showed us the possibilities of porting Java applications to Javascript and SVG. I hope that this will open the doors to recruit ideas and port applications from Java to SVG.
 
 Hotdraw is a framework for developing 2-dimensional structured drawing editors. It is used to develop editors for various 2D drawings such as UML tools, schematic diagrams, blueprints and program design. Elements of drawings can be treated interdentally but they can also have constraints between them. Editing drawings is achieved using the mouse. The user selects the element of interest with the mouse and makes changes to it (resize, translate, etc). More figures and tools can be easily added to the framework.
