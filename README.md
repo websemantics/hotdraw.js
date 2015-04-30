@@ -4,6 +4,8 @@ Hotdraw.js is a port of [JHotDraw version 5.1](http://www.jhotdraw.org).  It is 
 
 Hotdraw is a framework for developing 2-dimensional structured drawing editors. It is used to develop editors for various 2D drawings such as UML tools, schematic diagrams, blueprints and program design. Elements of drawings can be treated interdentally but they can also have constraints between them. Editing drawings is achieved using the mouse. The user selects the element of interest with the mouse and makes changes to it (resize, translate, etc). More figures and tools can be easily added to the framework.
 
+![Hotdrawjs](https://raw.githubusercontent.com/websemantics/Hotdraw.js/master/img/hotdrawjs.png)
+
 Hotdraw.js has been built with the [Oea.svg Framework](http://oeasvg.com). Oea.svg is a library that enables building GUI applications on SVG following Java Abstract Window Toolkit (AWT) model.
 
 ## Aims
