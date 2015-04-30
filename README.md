@@ -8,6 +8,8 @@ Hotdraw is a framework for developing 2-dimensional structured drawing editors. 
 
 Hotdraw.js has been built with the [Oea.svg Framework](http://oeasvg.com). Oea.svg is a library that enables building GUI applications on SVG following Java Abstract Window Toolkit (AWT) model.
 
+The GUI components used in Hotdraw.js have Microsoft Windows Look & Feel. However, it is as easy to plugin other Look & Feel themes to the AWT.js widgets exactly as with Java applications.
+
 ## Aims
 
 The [aim](http://www.jhotdraw.org) of making Hotdraw.js an open-source project is:
