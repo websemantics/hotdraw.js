@@ -39,7 +39,7 @@ This work was developed in 2005 as part of my PhD studies titled: ["A Web-based 
 
 I always thought Hotdraw was a model examble of what a Framework should look-like. Great code structure and true OOP styled programming. I had to make few changes to adapt the old Hotdraw.js code to work on modern browsers but I am impressed of the built-in SVG support one gets these days natively. 
 
-Hotdraw.js is built on (Oea.svg Framework)[http://oeasvg.com] which provides two libraries, Draw2D.svg and Swing.svg. These libraries were inspired by Java Graphics and AWT packages. Work might be required to upgrade to libraries such as, (Snap.svg)[http://snapsvg.io/] or (svg.js)[http://svgjs.com/].
+Hotdraw.js is built on [Oea.svg Framework](http://oeasvg.com) which provides two libraries, Draw2D.svg and Swing.svg. These libraries were inspired by Java Graphics and AWT packages. Work might be required to upgrade to libraries such as, [Snap.svg](http://snapsvg.io/) or [svg.js](http://svgjs.com/).
 
 ## TODO
 
