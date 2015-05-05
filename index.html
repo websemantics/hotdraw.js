@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <head>
+    <title>Hotdraw.js</title>
+    <style type="text/css">
+	    html, body {
+	    	margin:0px;
+	    	padding:0px;
+	    	height:100%;
+	    	min-height:100%;
+	    }
+	    object {
+	    	width:100%;
+	    	height:100%;
+	    }
+    </style>
+
+	<script type="text/javascript"  src="../Oea.svg/dist/oea.svg.js"></script>
+	<script type="text/javascript"  src="dist/hotdraw.js"></script>
+
+	<script>
+    window.onload = function () {
+  		svgDocument = document.getElementById("svgObject").contentDocument;
+			runHotdrawjs();
+    }
+
+		window.onbeforeunload = function (e) {
+		  var message = "Are you sure you want to exit?",
+		  e = e || window.event;
+		  if (e) {
+		    e.returnValue = message;
+		  }
+		  return message;
+		};
+ 	</script>
+  </head>
+  <body>
+  	<object id="svgObject" type="image/svg+xml" data="src/Demo/Blank.svg">
+  		Your browser doesn't support SVG
+  	</object>
+  </body>
+ </head>
+
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "Hotdraw.js",
+  "version": "0.1.0",
+  "homepage": "http://oeasvg.com/hotdrawjs",
+  "authors": [
+    "Adnan Sagar, PhD <adnan@websemantics.ca>"
+  ],
+  "description": "Hotdraw.js is a framework for developing 2-dimensional structured drawing editors",
+  "main": "dist/hotdraw-min.js",
+  "keywords": [
+    "hotdraw",
+    "jhotdraw",
+    "oea",
+    "oea.svg",
+    "svg",
+    "javascript",
+    "js"
+  ],
+  "dependencies": {
+    "Oea.svg": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
