@@ -41,6 +41,10 @@ I always thought Hotdraw was a model examble of what a Framework should look-lik
 
 Hotdraw.js is built on [Oea.svg Framework](http://oeasvg.com) which provides two libraries, Draw2D.svg and Swing.svg. These libraries were inspired by Java Graphics and AWT packages. Work might be required to upgrade to libraries such as, [Snap.svg](http://snapsvg.io/) or [svg.js](http://svgjs.com/).
 
+## Install
+
+Clone this repo and then run bower install. View index.html.
+
 ## TODO
 
 Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/index.html), which looks great. Possibly more implementations of other Hotdraw apps would be nice.
