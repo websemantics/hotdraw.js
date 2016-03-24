@@ -53,7 +53,7 @@ All notable changes to this project will be documented in this file as per [Keep
 
 ### [0.1.2] - 2016-03-24
 #### Fixed
-- Updated [Oea.svg](https://github.com/websemantics/Oea.svg)library to fix few related bugs.
+- Updated [Oea.svg](https://github.com/websemantics/Oea.svg) library to fix few related bugs.
 
 ## Install
 
