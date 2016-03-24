@@ -1,6 +1,6 @@
 {
     "name": "hotdrawjs",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Hotdraw.js is a framework for developing 2-dimensional structured drawing editors",
     "main": "./dist/hotdraw.js",
     "repository": {
