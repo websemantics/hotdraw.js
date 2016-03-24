@@ -63,12 +63,6 @@ All notable changes to this project will be documented in this file as per [Keep
 git clone https://github.com/websemantics/Hotdraw.js
 ```
 
-- Install Node.js modules
-
-```
-sudo npm install
-```
-
 - Install Bower dependencies
 
 ```
@@ -76,9 +70,23 @@ cd Hotdraw.js
 
 bower install
 ```
-
 - View `index.html` in your browser
 
+## New Release
+
+To generate a new release of Hotdraw.js follow these steps,
+
+- Install Node.js modules
+
+```
+sudo npm install
+```
+
+- Run release script
+
+```
+npm release
+```
 
 ## TODO
 
