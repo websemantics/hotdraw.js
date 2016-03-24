@@ -1,4 +1,4 @@
-// Hotdraw.js 0.1.0
+// Hotdraw.js 0.1.2
 //
 // Copyright (c) 2004 – 2015 Web Semantics,Inc. All rights reserved.
 //
@@ -10,7 +10,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// build: 2015-05-13
+// build: 2016-03-24
 
 /**
  * Hotdraw.js

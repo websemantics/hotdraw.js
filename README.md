@@ -76,10 +76,16 @@ bower install
 
 To generate a new release of Hotdraw.js follow these steps,
 
-- Install Node.js modules and run `grunt`
+- Install Node.js modules
 
 ```
 sudo npm install
+```
+
+- Run `grunt`
+
+```
+grunt
 ```
 
 This generates up-to-date library files for Hotdraw.js in the `dist` folder
