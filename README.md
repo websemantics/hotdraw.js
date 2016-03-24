@@ -87,6 +87,6 @@ Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/in
 
 ## Related Projects
 
-* [Oea.svg Framework](https://github.com/websemantics/Oea.svg)
+* [Oea.svg Framework](https://github.com/websemantics/Oea.svg), SVG GUI and Graphics Library following after Java Swing
 
-* [Browser.js](https://github.com/websemantics/Browser.js) 
+* [Browser.js](https://github.com/websemantics/Browser.js), an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in JavaScript 
