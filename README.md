@@ -1,4 +1,5 @@
 # Hotdraw.js
+> Updated : March 24, 2016
 
 Hotdraw.js is a port of [JHotDraw version 5.1](http://www.jhotdraw.org).  It is based on Erich Gamma's JHotDraw, which is copyright 1996, 1997 by IFA Informatik and Erich Gamma.The implementation of Hotdraw.js has showed us the possibilities of porting Java applications to Javascript and SVG. I hope that this will open the doors to recruit ideas and port applications from Java to SVG.
 
@@ -11,6 +12,7 @@ Hotdraw is a framework for developing 2-dimensional structured drawing editors. 
 Hotdraw.js has been built with the [Oea.svg Framework](http://oeasvg.com). Oea.svg is a library that enables building GUI applications on SVG following Java Abstract Window Toolkit (AWT) model.
 
 The GUI components used in Hotdraw.js have Microsoft Windows Look & Feel. However, it is as easy to plugin other Look & Feel themes to the AWT.js widgets exactly as with Java applications.
+
 
 ## Aims
 
@@ -27,6 +29,7 @@ The [aim](http://www.jhotdraw.org) of making Hotdraw.js an open-source project i
 - To make it an example for a well-designed and flexible framework
 - To learn and to have fun
 
+
 ## Documentation
 
 The original documentation of the Hotdraw Framework is avilable [here](http://softarch.cis.strath.ac.uk/PLJHD/Patterns/JHDDomainOverview.html). Hotdraw.js is purely a Javascript port of Hotdraw Framework and Pattern Language, built on [Oea.svg Framework](http://oeasvg.com).
@@ -34,6 +37,7 @@ The original documentation of the Hotdraw Framework is avilable [here](http://so
 ![Java Hotdraw](http://softarch.cis.strath.ac.uk/PLJHD/Patterns/DrawApp.JPG)
 
 There is also a great article about JHotdraw titled, [Become a programming Picasso with JHotDraw](http://www.javaworld.com/article/2074997/swing-gui-programming/become-a-programming-picasso-with-jhotdraw.html). This artcile goes into the theory of frameworks and design patterns which is what the open source community has been striving to achive.
+
 
 ## History
 
@@ -43,10 +47,46 @@ I always thought Hotdraw was a model examble of what a Framework should look-lik
 
 Hotdraw.js is built on [Oea.svg Framework](http://oeasvg.com) which provides two libraries, Draw2D.svg and Swing.svg. These libraries were inspired by Java Graphics and AWT packages. Work might be required to upgrade to libraries such as, [Snap.svg](http://snapsvg.io/) or [svg.js](http://svgjs.com/).
 
+
+## Change Log
+All notable changes to this project will be documented in this file as per [Keep a CHANGELOG](http://keepachangelog.com). This project adheres to [Semantic Versioning](http://semver.org/).
+
+### [0.1.2] - 2016-03-24
+#### Fixed
+- Updated [Oea.svg](https://github.com/websemantics/Oea.svg)library to fix few related bugs.
+
 ## Install
 
-Clone this repo and then run bower install. View index.html.
+- Clone this repo
+
+```
+git clone https://github.com/websemantics/Hotdraw.js
+```
+
+- Install Node.js modules
+
+```
+sudo npm install
+```
+
+- Install Bower dependencies
+
+```
+cd Hotdraw.js
+
+bower install
+```
+
+- View `index.html` in your browser
+
 
 ## TODO
 
 Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/index.html), which looks great. Possibly more implementations of other Hotdraw apps would be nice.
+
+
+## Related Projects
+
+* [Oea.svg Framework](https://github.com/websemantics/Oea.svg)
+
+* [Browser.js](https://github.com/websemantics/Browser.js) 
