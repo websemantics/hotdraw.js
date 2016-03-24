@@ -88,6 +88,8 @@ sudo npm install
 npm release
 ```
 
+This generates up-to-date library files for Hotdraw.js in the `dist` folder
+
 ## TODO
 
 Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/index.html), which looks great. Possibly more implementations of other Hotdraw apps would be nice.
