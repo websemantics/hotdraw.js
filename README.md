@@ -90,13 +90,14 @@ grunt
 
 This generates up-to-date library files for Hotdraw.js in the `dist` folder
 
-## TODO
-
-Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/index.html), which looks great. Possibly more implementations of other Hotdraw apps would be nice.
-
 
 ## Related Projects
 
 * [Oea.svg Framework](https://github.com/websemantics/Oea.svg), SVG GUI and Graphics Library following after Java Swing
 
 * [Browser.js](https://github.com/websemantics/Browser.js), an implementation of MathML, HTML and SVG in JavaScript 
+
+
+## TODO
+
+Upgrade to [JHotdraw 7](http://www.randelshofer.ch/oop/jhotdraw/Documentation/index.html), which looks great. Possibly more implementations of other Hotdraw apps would be nice.
