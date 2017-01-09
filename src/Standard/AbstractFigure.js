@@ -7,10 +7,10 @@
  * Design Patterns: Template Method 
  * Template Methods implement default and invariant behavior for figure subclasses.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -459,8 +459,8 @@ return this.deserializeAbstractFigure(str);
   		content += history+" dc:Creator \""+author+"\". ";          
   	} else
   	  content += history+" dc:Contributor \""+author+"\". ";
-      //content += history+" dc:Date \""+date+"\"^^xsd:DateTime . "; // W£C Date and Time Formats (and DateTime Data Type of XML Sxhema)
-      content += history+" dc:Date \""+date+"\". "; // W£C Date and Time Formats (and DateTime Data Type of XML Sxhema)
+      //content += history+" dc:Date \""+date+"\"^^xsd:DateTime . "; // Wï¿½C Date and Time Formats (and DateTime Data Type of XML Sxhema)
+      content += history+" dc:Date \""+date+"\". "; // Wï¿½C Date and Time Formats (and DateTime Data Type of XML Sxhema)
   		content += history+" rdf:type svgcwe:HistoryNode . ";
       content += history+" svgcwe:owned-by "+resource+" . ";
       content += history+" svgcwe:command \""+command+"\" . ";

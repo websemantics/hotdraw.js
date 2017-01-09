@@ -7,10 +7,10 @@
  * be used in conjunction with Command enabled ui components.
  * Command is a simple instance of the command pattern without undo support.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005
  * @package   websemantics/hotdraw/util
  */

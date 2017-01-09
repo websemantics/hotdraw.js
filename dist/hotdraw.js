@@ -1,6 +1,6 @@
-// Hotdraw.js 0.1.2
+// Hotdraw.js 0.1.3
 //
-// Copyright (c) 2004 – 2015 Web Semantics,Inc. All rights reserved.
+// Copyright (c) 2004 – 2017 Web Semantics, Inc. All rights reserved.
 //
 // http://www.opensource.org/licenses/mit-license.php
 //
@@ -10,15 +10,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// build: 2016-03-24
+// build: 2017-01-08
 
 /**
  * Hotdraw.js
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2004
  * @package   websemantics/hotdraw
  */
@@ -130,10 +130,10 @@ function setBackgroundPatterns(){
  * An attribute is identified by a string.
  * Default implementations for the Figure interface are provided by AbstractFigure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -370,10 +370,10 @@ Figure.prototype.setAttribute = function( /* String */ name, /* Object */ value)
  * Drawing sends out DrawingChanged events to DrawingChangeListeners whenever 
  * a part of its area was invalidated.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -519,10 +519,10 @@ Drawing.prototype.unlock = function() {}
  * Interface for FigureEnumerations that access Figures.
  * It provides a method nextFigure, that hides the down casting from client code.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -548,10 +548,10 @@ FigureEnumeration.prototype.nextFigure = function() {}
  *
  * Listener interested in Figure changes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -581,10 +581,10 @@ FigureChangeListener.prototype.figureRequestUpdate = function( /* FigureChangeEv
  *
  * Listener interested in Drawing changes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -608,10 +608,10 @@ DrawingChangeListener.prototype.drawingRequestUpdate = function( /* DrawingChang
  *
  * FigureChange event passed to FigureChangeListeners.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     13th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -664,10 +664,10 @@ FigureChangeEvent.prototype.getInvalidatedRectangle = function() {
  *
  * The event passed to DrawingChangeListeners.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     3rd February 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -727,10 +727,10 @@ DrawingChangeEvent.prototype.getInvalidatedRectangle = function() {
  * Tool plays the role of the State. In encapsulates all state specific behavior.
  * DrawingView plays the role of the StateContext.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -789,10 +789,10 @@ Tool.prototype.keyDown = function( /* MouseEvent */ e, /* int */ x, /* int */ y)
  * with regard to the UpdateStrategy.  DrawingView is the StrategyContext 
  * for the PointConstrainer.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -1033,10 +1033,10 @@ DrawingView.prototype.unfreezeView = function() {;
  * that participate in a drawing editor.
  * DrawingEditor is the mediator. It decouples the participants of a drawing editor.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -1087,10 +1087,10 @@ DrawingEditor.prototype.showStatus = function( /* String */ str) {;
  * owning figure and they provide methods to locate the handle on the figure and 
  * to track changes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -1151,10 +1151,10 @@ Handle.prototype.draw = function( /* Graphics */ g) {;
  * Locators can be used to locate a position on a figure.Locator encapsulates 
  * the strategy to locate a handle on a figure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/framework
  */
@@ -1175,10 +1175,10 @@ Locator.prototype.locate = function( /* Figure */ owner) {;
  *
  * An Enumeration that enumerates a vector back (size-1) to front (0).
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/util
  */
@@ -1225,10 +1225,10 @@ ReverseVectorEnumerator.prototype.nextElement = function() {
  * pressed and selected. It uses to the palette listener interface
  * to notify about state changes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     11th February 2005
  * @package   websemantics/hotdraw/util
  */
@@ -1398,10 +1398,10 @@ PaletteButton.prototype.refresh = function( /* Graphics */ g) {
  * be used in conjunction with Command enabled ui components.
  * Command is a simple instance of the command pattern without undo support.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005
  * @package   websemantics/hotdraw/util
  */
@@ -1454,10 +1454,10 @@ Command.prototype.toString = function() {
  * A FloatingTextField requires a two step initialization:
  * In a first step the overlay is created and in a second step it can be positioned.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/util
  */
@@ -1567,10 +1567,10 @@ FloatingTextField.prototype.getPreferredSize = function( /* int */ cols) {
  *
  * Some geometric utilities.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th August 2005
  * @package   websemantics/hotdraw/util
  */
@@ -1794,10 +1794,10 @@ var geom = new Geom();
  * Common base clase for commands that transfer figures between 
  * a drawing and the clipboard.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -1858,10 +1858,10 @@ FigureTransferCommand.prototype.insertFigures = function( /* Vector */ figures, 
  *
  * Command to delete the selection.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -1903,10 +1903,10 @@ DeleteCommand.prototype.isExecutable = function() {
  *
  * Command to duplicate the selection
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -1954,10 +1954,10 @@ DuplicateCommand.prototype.isExecutable = function() {
  *
  * Command to delete the selection.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -2010,10 +2010,10 @@ GroupCommand.prototype.isExecutable = function() {
  *
  * Command to ungroup the selection.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -2069,10 +2069,10 @@ UngroupCommand.prototype.isExecutable = function() {
  *
  * An Enumeration for a Vector of Figures.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -2121,10 +2121,10 @@ FigureEnumerator.prototype.nextFigure = function() {
  *
  * An Enumeration that enumerates a vector of figures back (size-1) to front (0).
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -2174,10 +2174,10 @@ ReverseFigureEnumerator.prototype.nextFigure = function() {
  * Manages a list of FigureChangeListeners to be notified of 
  * specific FigureChangeEvents.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -2304,10 +2304,10 @@ var figureChangeEventMulticaster = new FigureChangeEventMulticaster();
  * Design Patterns: Template Method 
  * Template Methods implement default and invariant behavior for figure subclasses.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -2801,10 +2801,10 @@ function cloneObject(what) {
  * A CompositeFigure doesn't define any layout behavior. It is up to subclassers to
  * arrange the contained figures.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -3184,10 +3184,10 @@ CompositeFigure.prototype.read = function( /* StorableOutput */ dr) {
  *
  * The standard implementation of the Drawing interface.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     12th January 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -3351,10 +3351,10 @@ StandardDrawing.prototype.readObject = function( /* ObjectInputStream */ s) {
  *
  * Default implementation support for Tools.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -3475,10 +3475,10 @@ AbstractTool.prototype.fireViewEvent = function( /* Figure */ fig, /* String */ 
  * SelectionTool is the StateContext and child is the State.
  * The SelectionTool delegates state specific behavior to its current child tool.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -3575,10 +3575,10 @@ SelectionTool.prototype.createAreaTracker = function( /* DrawingView */ view) {
  *
  * The standard implementation of DrawingView
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4366,10 +4366,10 @@ StandardDrawingView.prototype.checkDamage = function() {}
  *
  * A PaletteButton that is associated with a tool.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     11th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4490,10 +4490,10 @@ ToolButton.prototype.paintSelected = function( /* Graphics */ g) {
  *
  * A three state icon that can be used in Palettes.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     11th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4565,10 +4565,10 @@ PaletteIcon.prototype.getHeight = function() {
  *
  * SelectAreaTracker implements a rubberband selection of an area
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4670,10 +4670,10 @@ SelectAreaTracker.prototype.selectGroup = function( /* boolean */ toggle) {
  *
  * A tool to create new figures. The figure to be created is specified by a prototype.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -4784,10 +4784,10 @@ CreationTool.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* i
  *
  * Tool to scribble a PolyLineFigure
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     19th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4884,10 +4884,10 @@ ScribbleTool.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* i
  *
  * DragTracker implements the dragging of the clicked figure.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -4989,10 +4989,10 @@ DragTracker.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* in
  *
  * AbstractHandle provides defaulf implementation for the Handle interface.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -5165,10 +5165,10 @@ AbstractHandle.prototype.getCursorName = function() {
  * A LocatorHandle implements a Handle by delegating the location 
  * requests to a Locator object.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5204,10 +5204,10 @@ LocatorHandle.prototype.locate = function() {
  *
  * A Handle to manipulate the radius of a round corner rectangle.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5284,10 +5284,10 @@ RadiusHandle.prototype.invokeStep = function( /* int */ x, /* int */ y, /* int *
  *
  * HandleTracker implements interactions with the handles of a Figure.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5343,10 +5343,10 @@ HandleTracker.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* 
  *
  * AbstractLocator provides default implementations for the Locator interface.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -5384,10 +5384,10 @@ AbstractLocator.prototype.read = function( /* StorableInput */ dr) {
  *
  * A locator that specfies a point that is relative to the bounds of a figure.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5496,10 +5496,10 @@ var relativeLocator = new RelativeLocator();
  * A set of utility methods to create Handles for the common locations on a 
  * figure's display box.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     16th February 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -5814,10 +5814,10 @@ var boxHandleKit = new BoxHandleKit();
  *
  * The interface of a figure that has some editable text contents
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     28th February 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5873,10 +5873,10 @@ TextHolder.prototype.getFont = function() {;
  * A handle that doesn't change the owned figure. 
  * Its only purpose is to show feedback that a figure is selected.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     3rd August 2005 
  * @package   websemantics/hotdraw/standard
  */
@@ -5915,10 +5915,10 @@ NullHandle.prototype.createSVGContent = function( /* Graphics */ g) {
  *
  * A tool that performs an action when it is active and the mouse is clicked.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -5964,10 +5964,10 @@ ActionTool.prototype.action = function( /* Figure */ figure) {}
  * {Comments are copied from the Java Implementation of HotDraw}
  *
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -6028,10 +6028,10 @@ FigureAttributes.prototype.write = function( /* StorableOutput */ dw) {}
  * A figure that can keep track of an open ended set of attributes.
  * The attributes are stored in a dictionary implemented by FigureAttributes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     10th January 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -6239,10 +6239,10 @@ AttributeFigure.prototype.serializeAsRDFAttributeFigure = function( /* String */
  * methods to their contained figure. Subclasses can selectively
  * override these methods to extend and filter their behavior.
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2005
  * @package   websemantics/hotdraw/standard
  */
@@ -6473,10 +6473,10 @@ DecoratorFigure.prototype.read = function( /* StorableInput */ dr) {}
  * A figure that can keep track of an open ended set of attributes.
  * The attributes are stored in a dictionary implemented by FigureAttributes.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -6583,10 +6583,10 @@ RectangleFigure.prototype.clone = function() {
  * A poly line figure consists of a list of points.
  * It has an optional line decoration at the start and end.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     17th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -7065,10 +7065,10 @@ PolyLineFigure.prototype.serializeAsRDFPolyLineFigure = function( /* String */ c
  *
  * An ellipse figure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -7176,10 +7176,10 @@ EllipseFigure.prototype.clone = function() {
  * A Figure that shows an Image.
  * Images shown by an image figure are shared by using the Iconkit.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -7297,10 +7297,10 @@ ImageFigure.prototype.serializeAsRDFImageFigure = function( /* String */ context
  *
  * A round rectangle figure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -7498,10 +7498,10 @@ RoundRectangleFigure.prototype.serializeAsRDFRoundRectangleFigure = function( /*
  *
  * A text figure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -7917,10 +7917,10 @@ TextFigure.prototype.serializeAsRDFTextFigure = function( /* String */ contextUr
  * Figure providing the text with a FloatingTextField.  A tool interaction is done once a Figure that is not
  * a TextHolder is clicked.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     1st March 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -8044,10 +8044,10 @@ TextTool.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* int *
  *
  * A Handle to change the font size by direct manipulation.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     3rd August 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -8110,10 +8110,10 @@ FontSizeHandle.prototype.invokeStep = function( /* int */ x, /* int */ y, /* int
  *
  * A handle for a node on the polyline.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -8164,10 +8164,10 @@ PolyLineHandle.prototype.myOwner = function() {
  * A poly line figure consists of a list of points.
  * It has an optional line decoration at the start and end.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th January 2005
  * @package   websemantics/hotdraw/figures
  */ 
@@ -8205,10 +8205,10 @@ PolyLineLocator.prototype.locate = function( /* Figure */ owner) {
  *
  * A line figure.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -8383,10 +8383,10 @@ LineFigure.prototype.serializeAsRDFLineFigure = function( /* String */ contextUr
  *
  * BorderDecorator decorates an arbitrary Figure with a border.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2005 
  * @package   websemantics/hotdraw/figures
  */
@@ -8476,10 +8476,10 @@ BorderDecorator.prototype.clone = function() {
  *
  * BorderTool decorates the clicked figure with a BorderDecorator.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2005 
  * @package   websemantics/hotdraw/figures
  */
@@ -8512,10 +8512,10 @@ BorderTool.prototype.action = function( /* Figure */ figure) {
  *
  * A Figure that groups a collection of figures.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th Sept 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -8593,10 +8593,10 @@ GroupFigure.prototype.ret_displayBox = function() {
  *
  * A Handle to change the font size by direct manipulation.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     3rd August 2005
  * @package   websemantics/hotdraw/figures
  */
@@ -8635,10 +8635,10 @@ GroupHandle.prototype.createSVGContent = function( /* Graphics */ g) {
  *
  * A scalable, rotatable polygon with an arbitrary number of points
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9207,10 +9207,10 @@ PolygonFigure.prototype.serializeAsRDFPolygonFigure = function( /* String */ con
  *
  * A handle for a node on the polygon.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9265,10 +9265,10 @@ return this.fLocator.locate(this.owner());
  * 
  * Tool to draw a PolygonTool
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9384,10 +9384,10 @@ PolygonTool.prototype.mouseUp = function(/* MouseEvent */ e, /* int */ x, /* int
  * 
  * A Handle to scale and rotate a PolygonFigure
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9485,10 +9485,10 @@ this.fCurrent = null;
  *
  * A FloatingTextArea overlays an editor on top of an area in a drawing
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9602,10 +9602,10 @@ FloatingTextArea.prototype.getPreferredSize = function( /* int */ cols) {
  * Figure providing the text with a FloatingTextField.  A tool interaction is done once a Figure that is not
  * a TextHolder is clicked.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     4th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9726,10 +9726,10 @@ TextAreaTool.prototype.mouseUp = function( /* MouseEvent */ e, /* int */ x, /* i
  * Hotdraw.js : OpacityHandle
  *
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     9th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9781,10 +9781,10 @@ OpacityHandle.prototype.invokeStep = function( /* int */ x, /* int */ y, /* int 
  * Hotdraw.js : TextAlignHandle
  *
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     9th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -9827,10 +9827,10 @@ TextAlignHandle.prototype.invokeStep = function(/* int */ x, /* int */ y,/* int 
  * {Comments are copied from the Java Implementation of HotDraw}
  * 
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     9th August 2005
  * @package   websemantics/hotdraw/contrib
  */
@@ -10085,10 +10085,10 @@ return new TextAreaDecorator(null);
  * MayDrawApp window = new MyDrawApp();
  * window.open();
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th Sept 2005
  * @package   websemantics/hotdraw/application
  */
@@ -10343,10 +10343,10 @@ DrawApplication.prototype.createStatusLine = function( /* Window */ tools) {
  *
  * The Collaborative implementation of DrawingView. Support PopUpMenu
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th Sept 2005
  * @package   websemantics/hotdraw/demo
  */
@@ -10515,10 +10515,10 @@ DemoDrawingView.prototype.actionPerformed = function( /* ActionEvent */ e) {
 /**
  * Hotdraw.js : DemoApplication
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th Sept 2005
  * @package   websemantics/hotdraw/demo
  */
@@ -10645,10 +10645,10 @@ DemoApplication.prototype.toString = function() {
 /**
  * Hotdraw.js : DemoAttributes
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     8th Sept 2005
  * @package   websemantics/hotdraw/demo
  */
@@ -10858,10 +10858,10 @@ DemoAttributes.prototype.setAttributeToSelected = function( /* String */ name, /
 /**
  * Hotdraw.js
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th August 2004
  * @package   websemantics/hotdraw/demo
  */

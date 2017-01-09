@@ -1,6 +1,6 @@
 // Hotdraw.js @VERSION
 //
-// Copyright (c) 2004 – 2015 Web Semantics,Inc. All rights reserved.
+// Copyright (c) 2004 – 2017 Web Semantics, Inc. All rights reserved.
 //
 // http://www.opensource.org/licenses/mit-license.php
 //

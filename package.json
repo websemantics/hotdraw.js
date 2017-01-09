@@ -1,13 +1,13 @@
 {
     "name": "hotdrawjs",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Hotdraw.js is a framework for developing 2-dimensional structured drawing editors",
     "main": "./dist/hotdraw.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:websemantics/Hotdraw.js.git"
+        "url": "git@github.com:websemantics/hotdraw.js.git"
     },
-    "author": "Adnan Sagar, PhD.",
+    "author": "Adnan M.Sagar, Phd..",
     "license": "MIT",
     "devDependencies": {
         "grunt": "~0.4.1",

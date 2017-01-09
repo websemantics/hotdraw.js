@@ -7,10 +7,10 @@
  * that participate in a drawing editor.
  * DrawingEditor is the mediator. It decouples the participants of a drawing editor.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2004-2015 Web Semantics, Inc. (http://websemantics.ca)
+ * @author    Adnan M.Sagar, Phd. <adnan@websemantics.ca>
+ * @copyright 2004-2017 Web Semantics, Inc.
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://oeasvg.com/hotdrawjs
+ * @link      http://websemantics.ca
  * @since     5th February 2005
  * @package   websemantics/hotdraw/framework
  */
