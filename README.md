@@ -7,20 +7,21 @@
 │         ││   ││ │╰╮   ╭╯│     ││  ││    ╭─╯│ ╭╮   ││   ╰╯  ╰╯  │ │  ╭╯   ││      │  │
 │     ╭╮  ││   ╰╯ │ │ ──┤ │     ╰╯  ││    │  │ ╰╯   ││           │╭┴─╮│    │├────  │╭─┴╮
 ╰─────╯╰──╯╰──────╯ ╰───╯ ╰─────────╯╰────╯  ╰───┴──╯╰────┴───┴──╯╰┬─╯╰────╯╰──────╯╰─┬╯
-┬ ╭┬╮,╭─╮    ┬ ┬ ╭─╮ ╭┬╮         ┬ ╭┬╮, ╭─╮    ┬ ┬ ╭─╮ ╭┬╮         │                  │
-│  │  ╰─╮    ├─┤ │ │  │          │  │   ╰─╮    ├─┤ │ │  │         ╭┴─╮_____╭──╮_____╭─┴╮
-┴  ┴  ╰─╯    ┴ ┴ ╰─╯  ┴   . . .  ┴  ┴   ╰─╯    ┴ ┴ ╰─╯  ┴         ╰──╯     ╰──╯     ╰──╯
+┬ ╭┬╮,╭─╮    ┬ ┬ ╭─╮ ╭┬╮          ┬ ╭┬╮, ╭─╮    ┬ ┬ ╭─╮ ╭┬╮        │                  │
+│  │  ╰─╮    ├─┤ │ │  │           │  │   ╰─╮    ├─┤ │ │  │        ╭┴─╮_____╭──╮_____╭─┴╮
+┴  ┴  ╰─╯    ┴ ┴ ╰─╯  ┴   . . .   ┴  ┴   ╰─╯    ┴ ┴ ╰─╯  ┴        ╰──╯     ╰──╯     ╰──╯
+
 ```
 
 > HotDraw.js is a JavaScript Graphical User Interface (GUI) framework for developing structured drawing editors.
 
-[Live Demo](http://websemantics.github.io/hotdraw.js/)
+[Try it live](http://websemantics.github.io/hotdraw.js/)
 
 ## Introduction
 
 This project is the JavaScript implementation of [HotDraw](http://wiki.c2.com/?HotDraw), a framework for developing 2-dimensional structured drawing editors. HotDraw was built in the late 80s by [Kent Beck](https://twitter.com/kentbeck) and [Ward Cunningham](https://twitter.com/wardcunningham).
 
-HowDraw.js can be used to build all sorts of diagram software such as UML tools, schematic diagrams, blueprints and program design. Elements of drawings can be treated interdentally but they can also have constraints between them. Editing drawings is achieved using the mouse. The user selects the element of interest with the mouse and makes changes to it (resize, translate, etc). More figures and tools can be easily added to the framework.
+HowDraw.js can be used to build all sorts of diagram software for making UML tools, schematic diagram editors, blueprints and program design. Elements of drawings can be treated interdentally but they can also have constraints between them. Editing drawings is achieved using the mouse. The user selects the element of interest with the mouse and makes changes to it (resize, translate, etc). More figures and tools can be easily added to the framework.
 
 ![HotDraw.js](https://raw.githubusercontent.com/websemantics/hotdraw.js/master/img/hotdrawjs.png)
 
