@@ -26,7 +26,8 @@ module.exports = function(grunt) {
             },
             target: {
                 dest: "dist/hotdraw.js",
-                src: [  "./src/initHotdraw.js",
+                src: [  "./bower_components/Oea.svg/dist/oea.svg.js",
+                        "./src/initHotdraw.js",
                         "./src/Framework/Figure.js",
                         "./src/Framework/Drawing.js",
                         "./src/Framework/FigureEnumeration.js",

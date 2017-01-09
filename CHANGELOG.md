@@ -1,6 +1,7 @@
-### [0.1.3] - 2017-1-8
+### [0.1.3] - 2017-1-9
 ##### Changed
-- Add an ascii logo
+- Add HotDraw.js ascii logo
+- Bundle HotDraw.js with Oea.svg
 - Update README and source code
 
 ### [0.1.2] - 2016-03-24
