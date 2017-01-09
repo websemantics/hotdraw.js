@@ -13,16 +13,15 @@
 
 > HotDraw.js is a JavaScript Graphical User Interface (GUI) framework for developing structured drawing editors.
 
-
 [Live Demo](http://websemantics.github.io/hotdraw.js/)
-
-![HotDraw.js](https://raw.githubusercontent.com/websemantics/hotdraw.js/master/img/hotdrawjs.png)
 
 ## Introduction
 
 This project is the JavaScript implementation of [HotDraw](http://wiki.c2.com/?HotDraw), a framework for developing 2-dimensional structured drawing editors. HotDraw was built in the late 80s by [Kent Beck](https://twitter.com/kentbeck) and [Ward Cunningham](https://twitter.com/wardcunningham).
 
 HowDraw.js can be used to build all sorts of diagram software such as UML tools, schematic diagrams, blueprints and program design. Elements of drawings can be treated interdentally but they can also have constraints between them. Editing drawings is achieved using the mouse. The user selects the element of interest with the mouse and makes changes to it (resize, translate, etc). More figures and tools can be easily added to the framework.
+
+![HotDraw.js](https://raw.githubusercontent.com/websemantics/hotdraw.js/master/img/hotdrawjs.png)
 
 The main [aims](http://www.jhotdraw.org/) of making HotDraw.js an open-source project are:
 
@@ -79,7 +78,7 @@ I always thought HotDraw was a model example of what a framework should resemble
 
 ## Related Projects
 
-HotDraw.js was built on the [Oea.svg Framework](http://oeasvg.com), a library that enables building GUI applications on SVG following Java GUI widget toolkit, [Swing](https://docs.oracle.com/javase/tutorial/uiswing/). There are few libraries that come with Oea.svg including `Java.js`, `Draw2D.svg` and `Swing.svg`. These libraries were inspired by Java and Java Graphics and Swing/AWT packages. Work might be required to upgrade to libraries such as, [Snap.svg](http://snapsvg.io/) or [svg.js](http://svgjs.com/).
+HotDraw.js was built on the [Oea.svg Framework](http://oeasvg.com), a library that enables building GUI applications on SVG following Java GUI widget toolkit, [Swing](https://docs.oracle.com/javase/tutorial/uiswing/). There are few libraries that come with Oea.svg including `Java.js`, `Draw2D.svg` and `Swing.svg`. These libraries were "inspired by" Java and Java Graphics and Swing/AWT packages. Work might be required to upgrade to libraries such as, [Snap.svg](http://snapsvg.io/) or [svg.js](http://svgjs.com/).
 
 The GUI components used in HotDraw.js have Microsoft Windows Look & Feel (ouch). However, it is easy to plugin other Look & Feel themes to the `AWT.js` widgets similarly as with Java applications.
 
